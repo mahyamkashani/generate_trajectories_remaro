@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>uuv_disturbance_trajectory</name>
+  <version>0.6.13</version>
+  <description>
+      A simple scenario for an uuv like rexrov that shows how to use the uuv_control_utils tools to assess the failure situations.
+  </description>
+
+  <maintainer email="mahmo@itu.dk">Mahya M. Kashani</maintainer>
+ 
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>uuv_control_utils</exec_depend>
+  <exec_depend>uuv_trajectory_control</exec_depend>
+  <exec_depend>uuv_descriptions</exec_depend>
+  <exec_depend>uuv_thruster_manager</exec_depend>
+  <exec_depend>uuv_gazebo</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

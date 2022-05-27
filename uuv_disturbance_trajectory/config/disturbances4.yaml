@@ -1,0 +1,37 @@
+disturbances:
+ -
+    type: thruster_state
+    starting_time: 10
+    duration: 200
+    thruster_id: 0
+    is_on: 0
+ -
+    type: thruster_state
+    starting_time: 10
+    duration: 200
+    thruster_id: 1
+    is_on: 0
+ -
+    type: thruster_state
+    starting_time: 20
+    duration: 200
+    thruster_id: 2
+    is_on: 0
+ -
+    type: thruster_state
+    starting_time: 20
+    duration: 200
+    thruster_id: 3
+    is_on: 0
+ -
+    type: thruster_state
+    starting_time: 20
+    duration: 200
+    thruster_id: 4
+    is_on: 0
+ -
+    type: thruster_state
+    starting_time: 20
+    duration: 200
+    thruster_id: 5
+    is_on: 0

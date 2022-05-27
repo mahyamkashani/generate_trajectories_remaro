@@ -1,0 +1,15 @@
+disturbances:
+  -
+    type: propeller_efficiency
+    starting_time: 10
+    duration: 100
+    thruster_id: 4
+    efficiency: 0.5
+  -
+    type: propeller_efficiency
+    starting_time: 10
+    duration: 100
+    thruster_id: 2
+    efficiency: 0.4
+
+
