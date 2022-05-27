@@ -68,7 +68,7 @@
     <include file="$(find uuv_control_utils)/launch/start_disturbance_manager.launch">
         <arg name="uuv_name" value="rexrov"/>
         <arg name="use_file" value="true"/>
-        <arg name="disturbance_file" value="$(find uuv_disturbance_trajectory)/config/disturbances2.yaml"/>
+        <arg name="disturbance_file" value="$(find uuv_disturbance_trajectory)/config/disturbances.yaml"/>
     </include>   
     
     <include file="$(find uuv_control_utils)/launch/send_waypoints_file.launch">
