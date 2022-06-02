@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>wreckedship_survey</name>
+  <version>0.6.13</version>
+  <description>
+      A simple scenario for an uuv like rexrov to servey the wreckedship
+  </description>
+
+  <maintainer email="mahmo@itu.dk">Mahya M. Kashani</maintainer>
+ 
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>uuv_control_utils</exec_depend>
+  <exec_depend>uuv_trajectory_control</exec_depend>
+  <exec_depend>uuv_descriptions</exec_depend>
+  <exec_depend>uuv_thruster_manager</exec_depend>
+  <exec_depend>uuv_gazebo</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
