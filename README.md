@@ -1,6 +1,6 @@
-# `Generating various trajectories by using disturbance via UUV Simulator tutorials`
+# `Generating various scenarios using generating disturbances via UUV Simulator tutorials`
 
-In order to have various plans for an UUV (Unmanned Underwater Vehicle), we utilize multiple trajectories inspired from UUV Simulator.
+In order to have various plans for an UUV (Unmanned Underwater Vehicle) in the motion planner, we utilize multiple scenarios inspired from UUV Simulator Tutorials.
 
  **Environment Configuration:**
 > OS: Ubuntu 20.04, Ros: Ros1, Noetic, Gazebo: 11
